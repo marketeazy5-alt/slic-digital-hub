@@ -14,6 +14,7 @@ import { Slider } from "@/components/ui/slider";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/")({
+  ssr: false,
   component: Landing,
 });
 

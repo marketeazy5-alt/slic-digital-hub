@@ -7,7 +7,7 @@ import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { r as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
 import { t as Toaster } from "../_libs/sonner.mjs";
 import { t as Route$20 } from "./policies._policyId-C5uVraV9.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-U_ytsnXp.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-DmTqU5l7.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var styles_default = "/assets/styles-DyPxFuDm.css";
@@ -211,7 +211,10 @@ var Route$17 = createFileRoute("/_authenticated")({
 	component: lazyRouteComponent($$splitComponentImporter$17, "component")
 });
 var $$splitComponentImporter$16 = () => import("./routes-CvpLZ09f.mjs");
-var Route$16 = createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter$16, "component") });
+var Route$16 = createFileRoute("/")({
+	ssr: false,
+	component: lazyRouteComponent($$splitComponentImporter$16, "component")
+});
 var $$splitComponentImporter$15 = () => import("./trust-safety-CFDp1xIF.mjs");
 var Route$15 = createFileRoute("/_authenticated/trust-safety")({ component: lazyRouteComponent($$splitComponentImporter$15, "component") });
 var $$splitComponentImporter$14 = () => import("./support-C--KX9HU.mjs");
