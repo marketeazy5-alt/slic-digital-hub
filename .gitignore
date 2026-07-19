@@ -16,6 +16,9 @@ dist-ssr
 .nitro
 *.local
 
+# Vercel output (build artifacts – Vercel should run build, not use prebuilts)
+.vercel
+
 # Wrangler / Cloudflare
 .wrangler/
 .dev.vars
