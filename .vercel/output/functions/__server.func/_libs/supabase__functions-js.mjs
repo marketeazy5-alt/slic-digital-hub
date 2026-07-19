@@ -1,4 +1,4 @@
-import { __awaiter } from "tslib";
+var __awaiter=function(t,a,p,g){function ad(v){return v instanceof p?v:new p(function(r){r(v)})}return new(p||(p=Promise))(function(r,j){function fn(v){try{st(g.next(v))}catch(e){j(e)}}function rj(v){try{st(g["throw"](v))}catch(e){j(e)}}function st(r){r.done?r(r.value):ad(r.value).then(fn,rj)}st((g=g.apply(t,a||[])).next())});};
 //#region node_modules/@supabase/functions-js/dist/module/helper.js
 var resolveFetch = (customFetch) => {
 	if (customFetch) return (...args) => customFetch(...args);
